@@ -70,11 +70,42 @@ jenkins
 - Login to your Jenkins dashboard.
 
 ![ubuntu](imgs/login-5.png)
+## 6. Create a Job with Email Notification
+### Step 1: Create a New Job
+- From the Jenkins dashboard, click New Item.
 
-### Step 2: Go to System Configuration
+![ubuntu](imgs/new-item-6.png)
+
+- Enter a job name:
+
+```
+jenkin-email-notification
+```
+- Choose Freestyle Project and click OK.
+![ubuntu](imgs/enter-name-7.png)
+
+### Step 2: Add Source Code Management (Optional)
+- Under Source Code Management, select Git if you have a repository to build.
+
+![ubuntu](imgs/src-8.png)
+
+---
+## Step 3: Configure Post-Build Actions
+- Scroll down to Post-build Actions.
+
+- Click Add post-build action → E-mail Notification.
+
+- In Recipients, enter the email addresses you want to notify (separated by spaces).
+
+- Tick Send e-mail for every unstable build (you can also choose only for failures).
+
+- Click Save.
+---
+
+### Step 4: Go to System Configuration
 - Click Manage Jenkins → System.
 
-### Step 3: Set Global SMTP Settings
+### Step 5: Set Global SMTP Settings
 In the E-mail Notification section:
 - SMTP server:
 ```
@@ -94,7 +125,7 @@ smtp.gmail.com
 465
 ```
 ---
-### Step 4: Test the Email
+### Step 6: Test the Email
 - In the Test e-mail recipient field, enter your Gmail address.
 
 - Click Test Configuration.
@@ -102,29 +133,7 @@ smtp.gmail.com
 
 - Click Save.
 ---
-## 6. Create a Job with Email Notification
-### Step 1: Create a New Job
-- From the Jenkins dashboard, click New Item.
 
-- Enter a job name:
-```
-jenkin-email-notification
-```
-- Choose Freestyle Project and click OK.
-### Step 2: Add Source Code Management (Optional)
-- Under Source Code Management, select Git if you have a repository to build.
----
-## Step 3: Configure Post-Build Actions
-- Scroll down to Post-build Actions.
-
-- Click Add post-build action → E-mail Notification.
-
-- In Recipients, enter the email addresses you want to notify (separated by spaces).
-
-- Tick Send e-mail for every unstable build (you can also choose only for failures).
-
-- Click Save.
----
 ## 7. Testing the Setup
 - Go to your job’s page.
 
