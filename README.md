@@ -1,6 +1,7 @@
 # 🚀Jenkins Email Notification Setup with Gmail SMTP (Step-by-Step Guide)
 
-Email notifications are one of the most useful features in Jenkins, especially when you want to be instantly informed about the success or failure of your builds. In this guide, we will walk through configuring Jenkins to send email alerts using Gmail SMTP.
+Email notifications are one of the most useful features in Jenkins, especially when you want to be instantly informed about the success or failure of your builds. 
+In this guide, we will walk through configuring Jenkins to send email alerts using Gmail SMTP.
 By the end of this tutorial, your Jenkins server will be able to automatically send emails whenever a build fails, becomes unstable, or succeeds.
 
 ----
