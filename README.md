@@ -174,7 +174,8 @@ smtp.gmail.com
 - Make sure your Gmail account is not blocking suspicious sign-ins.
 ---
 ## Conclusion
-Setting up Jenkins Email Notifications with Gmail SMTP ensures you’re always in the loop about your CI/CD pipeline’s status. This is a vital step in making your development process more responsive and collaborative.
+Setting up Jenkins Email Notifications with Gmail SMTP ensures you’re always in the loop about your CI/CD pipeline’s status.
+This is a vital step in making your development process more responsive and collaborative.
 
 With this setup, you’ll no longer need to constantly check Jenkins — the build results will come directly to your inbox.
 
