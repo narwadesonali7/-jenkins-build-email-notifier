@@ -99,7 +99,7 @@ jenkin-email-notification
 
 - Tick Send e-mail for every unstable build (you can also choose only for failures).
 
-- Click Save.
+- Click on Save.
 ---
 
 ### Step 4: Go to System Configuration
