@@ -83,6 +83,7 @@ jenkins
 jenkin-email-notification
 ```
 - Choose Freestyle Project and click OK.
+
 ![ubuntu](imgs/enter-name-7.png)
 
 ### Step 2: Add Source Code Management (Optional)
