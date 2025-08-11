@@ -96,15 +96,20 @@ jenkin-email-notification
 
 - Click Add post-build action → E-mail Notification.
 
+![ubuntu](imgs/post-build-actions-9.png)
 - In Recipients, enter the email addresses you want to notify (separated by spaces).
 
 - Tick Send e-mail for every unstable build (you can also choose only for failures).
 
 - Click on Save.
+
+![ubuntu](imgs/add-repeient-10.png)
 ---
 
 ### Step 4: Go to System Configuration
 - Click Manage Jenkins → System.
+
+![ubuntu](imgs/system-11.png)
 
 ### Step 5: Set Global SMTP Settings
 In the E-mail Notification section:
@@ -112,8 +117,12 @@ In the E-mail Notification section:
 ```
 smtp.gmail.com
 ```
+![ubuntu](imgs/smtp-email-13.png)
 - Click Advanced.
+
+![ubuntu](imgs/advanced-14.png)
 - Tick Use SMTP Authentication.
+
 
 - User Name: Your Gmail address (example:   narwadesonali7@gmail.com).
 
@@ -121,18 +130,23 @@ smtp.gmail.com
 
 - Tick Use SSL.
 
+![ubuntu](imgs/ssl-15.png)
+
 - SMTP Port:
 ```
 465
 ```
+![ubuntu](imgs/smtp-port-16.png)
 ---
 ### Step 6: Test the Email
 - In the Test e-mail recipient field, enter your Gmail address.
 
 - Click Test Configuration.
-- If everything is correct, you should receive a test email.
-
 - Click Save.
+
+![ubuntu](imgs/test-email-17.png)
+- If everything is correct, you should receive a test email.
+![ubuntu](imgs/test-success-18.png)
 ---
 
 ## 7. Testing the Setup
@@ -140,9 +154,16 @@ smtp.gmail.com
 
 - Click Build Now.
 
+![ubuntu](imgs/build-now-20.png)
+
 - If your build fails, you will receive an email with the error message.
 
+![ubuntu](imgs/build-failed-recive-email-23.png)
+
 - If your build succeeds, you will receive a success notification.
+
+![ubuntu](imgs/build-success-21.png)
+
 ---
 ## 8. Example Email Alerts
 - Failed Build Email – Contains:
