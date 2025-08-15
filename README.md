@@ -100,6 +100,7 @@ jenkin-email-notification
 ![ubuntu](imgs/post-build-actions-9.png)
 - In Recipients, enter the email addresses you want to notify (separated by spaces).
 
+
 - Tick Send e-mail for every unstable build (you can also choose only for failures).
 
 - Click on Save.
