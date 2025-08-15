@@ -145,6 +145,7 @@ smtp.gmail.com
 - In the Test e-mail recipient field, enter your Gmail address.
 
 - Click Test Configuration.
+
 - Click Save.
 
 ![ubuntu](imgs/test-email-17.png)
