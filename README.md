@@ -98,6 +98,7 @@ jenkin-email-notification
 - Click Add post-build action → E-mail Notification.
 
 ![ubuntu](imgs/post-build-actions-9.png)
+
 - In Recipients, enter the email addresses you want to notify (separated by spaces).
 
 
