@@ -150,6 +150,7 @@ smtp.gmail.com
 
 ![ubuntu](imgs/test-email-17.png)
 - If everything is correct, you should receive a test email.
+
 ![ubuntu](imgs/test-success-18.png)
 ---
 
